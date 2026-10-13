@@ -75,7 +75,7 @@ class GameLogic {
         // } else {
         //     this.currentPlayer = "X";
         // }
-        this.currentPlayer = this.currentPlayer === "X" ? "O" : "X"; //?= if true X switch O. else X , so like thiscurrentPlayer === X ? then O, if not X
+        this.currentPlayer = this.currentPlayer === "X" ? "Spender" : "X"; //?= if true X switch O. else X , so like thiscurrentPlayer === X ? then O, if not X
     }
 
 }
