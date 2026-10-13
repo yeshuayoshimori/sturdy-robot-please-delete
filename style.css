@@ -1,0 +1,21 @@
+body {
+    background-color: antiquewhite;
+}
+
+p{
+    color: black;
+
+}
+
+.game-board {
+    border-collapse: collapse; /* no separation*/
+    width: 300px;
+}
+
+    .game-board td {
+        border: 2px solid black;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        font-size: 40px;
+    }
